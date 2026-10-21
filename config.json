@@ -1,0 +1,23 @@
+{
+  "gms_base_url": "https://gms.ssafy.io/gmsapi/api.openai.com/v1/",
+  "chat_model": "gpt-5.4-nano",
+  "embedding_model": "text-embedding-3-small",
+  "embedding_candidates": [
+    "text-embedding-3-small",
+    "text-embedding-3-large",
+    "text-embedding-ada-002"
+  ],
+  "embedding_batch_size": 64,
+  "embedding_max_requests_per_run": 40,
+  "chroma_dir": "chroma_db",
+  "recipe_collection": "recipe_meta",
+  "external_collection": "external_docs",
+  "chunk_size": 1000,
+  "chunk_overlap": 200,
+  "top_k_external": 4,
+  "mmr": false,
+  "wiki_search_limit": 5,
+  "wiki_max_docs_per_question": 3,
+  "wiki_max_requests_per_question": 12,
+  "request_interval_sec": 0.5
+}

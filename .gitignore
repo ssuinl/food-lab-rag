@@ -1,0 +1,11 @@
+.env
+.venv/
+chroma_db/
+cache/
+__pycache__/
+*.pyc
+verify_results.txt
+index_plan.json
+run_checks.*
+data_check/raw/
+data_check/report.json
