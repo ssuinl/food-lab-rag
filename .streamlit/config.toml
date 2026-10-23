@@ -1,0 +1,4 @@
+# NF2004: 화면에 오류 추적 정보(traceback)를 보여 주지 않는다. 오류 내용은 터미널 로그에만 남는다.
+[client]
+showErrorDetails = "none"
+toolbarMode = "minimal"
